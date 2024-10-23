@@ -303,6 +303,7 @@ body {
     .adpolicy {
         max-width: 600px;
         font-size: 1rem;
+        text-align: left
     }
 
     .addgood {
@@ -359,5 +360,33 @@ body {
 }
 
 @media (min-width: 768px) {
+    .adcols {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 
+    .adsetup, .adfree {
+        max-width: 600px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /* .adfree {
+        max-width: ;
+    } */
+
+    .adpolicy {
+        text-align: left;
+    }
+
+    .adgood {
+        font-size: 1.5rem;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .adparent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
