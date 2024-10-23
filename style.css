@@ -398,9 +398,24 @@ body {
     }
     .adtextsize {
         text-justify: auto;
+        font-size: 1.13rem;
     }
 
     .adchild {
         width: 75%;
+    }
+
+    .adwith {
+        max-width: auto;
+        width: 100%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .adgo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 1.5rem;
     }
 }
