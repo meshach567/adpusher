@@ -418,4 +418,36 @@ body {
         align-items: center;
         gap: 1.5rem;
     }
+
+    .adinsight {
+        font-size: 1.3rem;
+    }
+
+    .admetric {
+        font-size: 1.1rem;
+    }
+
+    .adicon {
+        max-width: 6rem;
+        width: 100%;
+    }
+
+    .adfellow {
+        font-size: 1.65rem;
+    }
+
+    .adearn {
+        max-width: auto;
+        width: 75%;
+        font-size: 1.8rem;
+    }
+
+    .adcopy {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media  (min-width: 1024px) {
+    
 }
