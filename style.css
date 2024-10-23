@@ -263,7 +263,7 @@ body {
 /**tablet screen **/
 @media (min-width: 640px) {
     .adgrow {
-        max-width: 500px;
+        max-width: 600px;
         width: 100%;
         word-wrap: none;
         font-size: 1.5rem;
@@ -283,6 +283,10 @@ body {
 
     .adsetup {
         max-width: 400px;
+    }
+
+    .adsetupdemo {
+        font-size: 1.2rem; 
     }
 
     .adfree {
@@ -310,9 +314,50 @@ body {
         max-width: 8.5rem;
     }
 
-    .adtextsize {
+    .adnum {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .adtext {
         font-size: 1.1rem;
     }
 
-    
+    .adtextsize {
+        font-size: 1rem;
+    }
+
+    .adwith {
+        font-size: 1.3rem;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .adinsight {
+        font-size: 1.5rem;
+    }
+
+    .admetric {
+        font-size: 1.2rem;
+    }
+
+    .adfellow {
+        font-size: 1.1rem;
+    }
+
+    .adcurrent {
+        font-size: 1rem;
+    }
+
+    .adearn {
+        font-size: 1.2rem;
+    }
+
+    .adcopy {
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 768px) {
+
 }
