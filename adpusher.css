@@ -260,6 +260,7 @@ body {
     }
 }
 
+/**tablet screen **/
 @media (min-width: 640px) {
     .adgrow {
         max-width: 500px;
