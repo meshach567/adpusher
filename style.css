@@ -389,5 +389,18 @@ body {
         display: flex;
         flex-direction: row;
         gap: 1.5rem;
+        justify-content: space-between;
+    }
+
+    .adimg {
+        max-width: 8rem;
+        width: 25%;
+    }
+    .adtextsize {
+        text-justify: auto;
+    }
+
+    .adchild {
+        width: 75%;
     }
 }
