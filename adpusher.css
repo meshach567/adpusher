@@ -16,11 +16,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 
 :root {
     --marquee-width: 80vw;
 
-    /* --marquee-elements: 12; */
+    --marquee-elements: 12;
     /* defined with JavaScript */
     --marquee-elements-displayed: 5;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
@@ -157,4 +166,146 @@
 .slide {
     height: 50px;
     width: 250px;
+}
+
+/** Responsive Design ***/
+
+/** Mobile Screen First**/
+
+@media (min-width: 360px) {
+    .adiphonex, .adgrow {
+        font-size: 2.3rem;
+    }
+
+    .adgrow {
+        word-break: keep-all;
+        font-weight: 700;
+    }
+
+    .adsvgsm {
+        width: 1.5rem;
+    }
+
+    .addeal {
+        font-size: 1.6rem;  
+    }
+
+    .adsmbreak {
+        word-break: keep-all;
+        line-break: auto;
+    }
+
+    .adsetupdemo {
+        font-weight: 600;
+        width: 11rem;
+        font-size: 1.5rem;
+    }
+
+    .marquee {
+        margin: auto;
+        padding: 2rem;
+    }
+
+    .adsetup {
+        font-size: 2rem;
+    }
+
+    .adfree {
+        font-size: 1.8rem;
+    }
+
+    .adgetfree {
+        width: 14rem;
+        padding: 1.5rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .adimg {
+        max-width: 10rem;
+    }
+
+    .adnum {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .adtext {
+        font-size: 1.95rem;
+        padding: 0 0.5rem;
+    }
+
+    .adwith {
+        font-size: 2rem;
+    }
+
+    .adinsight {
+        font-size: 2rem;
+    }
+
+    .admetric {
+        font-size: 1.77rem;
+    }
+}
+
+
+
+@media (min-width: 430px) {
+    .adsetup {
+        font-size: 2.5rem;
+        max-width: 230px;
+    }
+
+    .adfree {
+        max-width: 400px; 
+    }
+}
+
+@media (min-width: 640px) {
+    .adgrow {
+        max-width: 500px;
+        width: 100%;
+        word-wrap: none;
+    }
+
+    .addeal {
+        font-size: 1.4rem;
+    }
+
+    .adsvgsm {
+        width: .9rem;
+    }
+
+    .marquee {
+        width: 100%;
+    }
+
+    .adsetup {
+        max-width: 400px;
+    }
+
+    .adfree {
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+
+    .adpolicy {
+        max-width: 600px;
+        font-size: 1rem;
+    }
+
+    .addgood {
+        max-width: 620px;
+        font-size: 1.2rem;
+    }
+
+    .adimg {
+        max-width: 8.5rem;
+    }
+
+    .adtextsize {
+        font-size: 1.1rem;
+    }
+
+    
 }
